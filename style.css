@@ -1,0 +1,32 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed dimgray;
+    outline: double 6px cornflowerblue;
+    width: 50%;
+    height: 300px;
+}
+
+.flex-item {
+    border: 2px solid white;
+    background: cornflowerblue;
+    height: 100%;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    text-transform: uppercase;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid cornflowerblue;
+    background-color: white;
+    font-weight: 600;
+}
+button:active {
+    color: white;
+    background-color: cornflowerblue;
+}
